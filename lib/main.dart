@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Museum App',
       theme: ThemeData(primarySwatch: Colors.cyan,),
       darkTheme: ThemeData.dark(),
-        home: LoginPage(),
+        home: MyHomePage(),
       );
   }
 }
