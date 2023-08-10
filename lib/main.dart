@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart' ; 
+import 'firebase_options.dart' ; 
+
 
 void main() {
   runApp(MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,23 +17,43 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Museum App',
-      theme: ThemeData(primarySwatch: Colors.green,),
+      theme: ThemeData(primarySwatch: Colors.cyan,),
       darkTheme: ThemeData.dark(),
-        home: LoginPage(),
+        home: MyHomePage(),
       );
   }
 }
 
-class LoginPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Firebase Authentication'),
-      ),
-    );
-  }
-}
+
+// class LoginPage extends StatelessWidget {
+  
+//   @override
+  
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text('Firebase Authentication'),
+//       ),
+//       body: FutureBuilder(
+//         future: _initializeFirebase(),
+//         builder: (context, snapshot) {
+//           if (snapshot.connectionState == ConnectionState.done) {
+//             return Column(
+//               children: [
+//                 Text('Login'),
+//               ],
+//             );
+//           }
+//           return Center(
+//             child: CircularProgressIndicator(),
+//           );
+//         },
+//       ),
+//     );
+//   }
+// }
+
+
 
 class  MyHomePage extends StatelessWidget {
   @override
