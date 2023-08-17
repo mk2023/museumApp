@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCGIl4Nvyij_E4VYtVjsXFQ3vgTgjjsJ88',
-    appId: '1:493973749147:web:1c6a19b333e38f9908f53e',
+    appId: '1:493973749147:web:449baaa2c4598ffc08f53e',
     messagingSenderId: '493973749147',
     projectId: 'museum-artifacts',
     authDomain: 'museum-artifacts.firebaseapp.com',
     storageBucket: 'museum-artifacts.appspot.com',
-    measurementId: 'G-KJH99HD9Y3',
+    measurementId: 'G-8X8LDZ2043',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyD2WsTp_HOITIlQHXXza2N9JfaxXdnyjIk',
-    appId: '1:493973749147:android:e9cfa48472d164ea08f53e',
+    appId: '1:493973749147:android:e69e8e2924a23d0408f53e',
     messagingSenderId: '493973749147',
     projectId: 'museum-artifacts',
     storageBucket: 'museum-artifacts.appspot.com',
@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAn-ZLC9M9EH-qrA5LCHjcx0mYk_Aiv_54',
-    appId: '1:493973749147:ios:cb64dcd5bf532f8208f53e',
+    appId: '1:493973749147:ios:1193b9c16a9ca1c708f53e',
     messagingSenderId: '493973749147',
     projectId: 'museum-artifacts',
     storageBucket: 'museum-artifacts.appspot.com',
@@ -73,7 +73,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAn-ZLC9M9EH-qrA5LCHjcx0mYk_Aiv_54',
-    appId: '1:493973749147:ios:32f0a442fcd210cd08f53e',
+    appId: '1:493973749147:ios:dbe38da0b3cb5b4d08f53e',
     messagingSenderId: '493973749147',
     projectId: 'museum-artifacts',
     storageBucket: 'museum-artifacts.appspot.com',
